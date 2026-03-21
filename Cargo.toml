@@ -31,6 +31,10 @@ bench = false
 name = "benchmarks"
 harness = false
 
+[[bench]]
+name = "ltembed_shapes"
+harness = false
+
 [dependencies]
 rawpointer = "0.2"
 
@@ -40,6 +44,7 @@ num_cpus = { version = "1.13", optional = true }
 
 [dev-dependencies]
 bencher = "0.1.2"
+criterion = { version = "0.5", features = ["html_reports"] }
 itertools = "0.8"
 
 [features]
