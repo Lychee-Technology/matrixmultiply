@@ -63,6 +63,7 @@
 //!   (if enabled), and the following kernel variants are implemented:
 //!
 //!   - `neon`
+//!   - `neon-8x12` (experimental cargo feature; keeps the default kernel unchanged unless enabled)
 //!
 //! ## Features
 //!

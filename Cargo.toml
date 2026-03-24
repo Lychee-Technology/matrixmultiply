@@ -53,6 +53,9 @@ default = ["std"]
 # support for complex f32, complex f64
 cgemm = []
 
+# opt-in wider AArch64 NEON SGEMM microkernel
+neon-8x12 = []
+
 threading = ["thread-tree", "std", "once_cell", "num_cpus"]
 std = []
 
