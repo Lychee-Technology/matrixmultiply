@@ -48,7 +48,7 @@ criterion = { version = "0.5", features = ["html_reports"] }
 itertools = "0.8"
 
 [features]
-default = ["std"]
+default = ["std", "neon-8x12"]
 
 # support for complex f32, complex f64
 cgemm = []
